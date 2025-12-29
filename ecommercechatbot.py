@@ -4,7 +4,7 @@ from google import genai
 # -----------------------------
 # API KEY
 # -----------------------------
-API_KEY = "AIzaSyCXIK-8ztJa2Zv_s-0O2Sn1rTqnvy3Ut4s"
+API_KEY = "Google API key "
 
 client = genai.Client(api_key=API_KEY)
 
@@ -52,3 +52,4 @@ if st.button("Get Explanation"):
         st.write(response.text)
     else:
         st.warning("Please enter a question")
+
